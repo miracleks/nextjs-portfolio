@@ -1,15 +1,12 @@
 import '../styles/globals.css'
-import 'semantic-ui-css/semantic.min.css'
-import Footer from '../src/component/Footer'
-import Top from '../src/component/Top'
+import Layout from '../src/component/Layout'
+
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="fixed inverted">
-      <Top />
+    <Layout>
       <Component {...pageProps} />
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 

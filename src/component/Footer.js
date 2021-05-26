@@ -1,3 +1,3 @@
 export default function Footer() {
-    return <div>Copyright Our platform. All righs reserved.</div>
+    return <footer>Copyright Our platform. All righs reserved.</footer>
 }
