@@ -1,9 +1,15 @@
 import React from 'react'
+import Head from 'next/head'
 
 export default function about() {
-    return (
-        <div>
-            About
-        </div>
-    )
+  return (
+    <>
+      <Head>
+        <title>About</title>
+      </Head>
+      <div>
+        About
+      </div>
+    </>
+  )
 }

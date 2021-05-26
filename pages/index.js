@@ -4,8 +4,13 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
-      <h1>Hopepage</h1>
-    </div>
+    <>
+      <Head>
+        <title>HomePage</title>
+      </Head>
+      <div>
+        <h1>HomePage</h1>
+      </div>
+    </>
   )
 }
